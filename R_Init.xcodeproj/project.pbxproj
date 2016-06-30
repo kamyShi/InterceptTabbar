@@ -13,6 +13,14 @@
 		3C9980F61D1912690001319C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9980F41D1912690001319C /* Main.storyboard */; };
 		3C9980F81D1912690001319C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9980F71D1912690001319C /* Assets.xcassets */; };
 		3C9980FB1D1912690001319C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9980F91D1912690001319C /* LaunchScreen.storyboard */; };
+		3C9981041D1912820001319C /* NSString+Rinit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9981031D1912820001319C /* NSString+Rinit.m */; };
+		3C9981071D191DA30001319C /* assault.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9981061D191DA30001319C /* assault.m */; };
+		3CBDCF1A1D1BE8DF00E06420 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBDCF191D1BE8DF00E06420 /* FirstViewController.swift */; };
+		3CBDCF1C1D1BE96B00E06420 /* InsideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBDCF1B1D1BE96B00E06420 /* InsideViewController.swift */; };
+		3CBDCF1E1D1BE9BB00E06420 /* MyTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBDCF1D1D1BE9BB00E06420 /* MyTabBarViewController.swift */; };
+		3CBDCF201D1BE9DE00E06420 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBDCF1F1D1BE9DE00E06420 /* SecondTableViewController.swift */; };
+		3CBDCF221D1BE9E900E06420 /* ThirdTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBDCF211D1BE9E900E06420 /* ThirdTableViewController.swift */; };
+		3CBDCF241D1BEC4300E06420 /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBDCF231D1BEC4300E06420 /* EmptyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,17 @@
 		3C9980F71D1912690001319C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C9980FA1D1912690001319C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C9980FC1D1912690001319C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C9981021D1912820001319C /* NSString+Rinit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Rinit.h"; sourceTree = "<group>"; };
+		3C9981031D1912820001319C /* NSString+Rinit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Rinit.m"; sourceTree = "<group>"; };
+		3C9981051D191DA30001319C /* assault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assault.h; sourceTree = "<group>"; };
+		3C9981061D191DA30001319C /* assault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = assault.m; sourceTree = "<group>"; };
+		3CBDCF181D1BE8DF00E06420 /* R_Init-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "R_Init-Bridging-Header.h"; sourceTree = "<group>"; };
+		3CBDCF191D1BE8DF00E06420 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3CBDCF1B1D1BE96B00E06420 /* InsideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsideViewController.swift; sourceTree = "<group>"; };
+		3CBDCF1D1D1BE9BB00E06420 /* MyTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarViewController.swift; sourceTree = "<group>"; };
+		3CBDCF1F1D1BE9DE00E06420 /* SecondTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
+		3CBDCF211D1BE9E900E06420 /* ThirdTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdTableViewController.swift; sourceTree = "<group>"; };
+		3CBDCF231D1BEC4300E06420 /* EmptyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +86,17 @@
 				3C9980F91D1912690001319C /* LaunchScreen.storyboard */,
 				3C9980FC1D1912690001319C /* Info.plist */,
 				3C9980EB1D1912690001319C /* Supporting Files */,
+				3C9981021D1912820001319C /* NSString+Rinit.h */,
+				3C9981031D1912820001319C /* NSString+Rinit.m */,
+				3C9981051D191DA30001319C /* assault.h */,
+				3C9981061D191DA30001319C /* assault.m */,
+				3CBDCF181D1BE8DF00E06420 /* R_Init-Bridging-Header.h */,
+				3CBDCF1B1D1BE96B00E06420 /* InsideViewController.swift */,
+				3CBDCF1D1D1BE9BB00E06420 /* MyTabBarViewController.swift */,
+				3CBDCF191D1BE8DF00E06420 /* FirstViewController.swift */,
+				3CBDCF1F1D1BE9DE00E06420 /* SecondTableViewController.swift */,
+				3CBDCF211D1BE9E900E06420 /* ThirdTableViewController.swift */,
+				3CBDCF231D1BEC4300E06420 /* EmptyViewController.swift */,
 			);
 			path = R_Init;
 			sourceTree = "<group>";
@@ -149,8 +179,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CBDCF1E1D1BE9BB00E06420 /* MyTabBarViewController.swift in Sources */,
+				3CBDCF1C1D1BE96B00E06420 /* InsideViewController.swift in Sources */,
+				3C9981041D1912820001319C /* NSString+Rinit.m in Sources */,
+				3CBDCF221D1BE9E900E06420 /* ThirdTableViewController.swift in Sources */,
+				3CBDCF241D1BEC4300E06420 /* EmptyViewController.swift in Sources */,
 				3C9980F31D1912690001319C /* ViewController.m in Sources */,
+				3C9981071D191DA30001319C /* assault.m in Sources */,
+				3CBDCF1A1D1BE8DF00E06420 /* FirstViewController.swift in Sources */,
 				3C9980F01D1912690001319C /* AppDelegate.m in Sources */,
+				3CBDCF201D1BE9DE00E06420 /* SecondTableViewController.swift in Sources */,
 				3C9980ED1D1912690001319C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,10 +301,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = R_Init/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kamyShi.R-Init";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "R_Init/R_Init-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -274,10 +315,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = R_Init/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kamyShi.R-Init";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "R_Init/R_Init-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -300,6 +343,7 @@
 				3C9981011D1912690001319C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
